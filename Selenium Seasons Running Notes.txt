@@ -2842,3 +2842,81 @@ org.apache.poi » poi
 org.apache.poi » poi-ooxml
 
 org.apache.poi » poi-scratchpad
+
+
+												Excel
+								
+								.xls						    .xlsx 
+								
+								
+						HSSFWorkbook(C)		Workbook(I)			XSSFWorkbook(C)
+						HSSFSheet(C)		Sheet(I)			XSSFSheet(C)
+						HSSFRow(C)			Row(I)				XSSFRow(c)
+						HSSFCell(C)			Cell(I)				XSSFCell(C)
+						
+						
+FileInputStream Class :
+
+To read any file in Java Programming
+
+java.io 
+
+FileInputStream(File)
+FileInputStream(FileDescriptor)
+FileInputStream(String)	:  here String is path of the file including extension 
+
+				
+XSSFWorkbook(C):
+
+XSSFWorkbook(InputStream): here InputStream means object of FileInputStream
+
+getSheet(String):XSSFSheet ==> here String is the sheet name in workbook
+
+XSSFSheet(C):
+
+XSSFWorkbook wb=new XSSFWorkbook(InputStream);
+
+XSSFSheet ws=wb.getSheet(Sheet1);
+
+
+using non-Static Factory Method (NSFM)
+
+when object of ClassName2 depends on Object of ClassName1
+
+ClassName1 object1=new ClassName1();
+
+ClassName2 object2=object1.method-name();
+
+methods in Sheet :
+
+getLastRowNum():int (here this will the integer value or the index of last row, where counting starts from zero)
+
+getPhysicalNumberOfRows():int (here this will give the count of no of rows having some data)
+
+XSSFRow(C):
+
+
+getRow(int):XSSFRow  , here int is the Rownumber and row number starts from zero 
+Methods in Row :
+
+getLastCellNum():int  (here this will the integer value or the index of last row, where counting starts from one)
+getPhysicalNumberOfCells():int ((here this will give the count of no of cells having some data in that row)
+
+XSSFCell(C):
+
+getRow(int).getCell(int):XSSFCell , , here int is the CellNumber and Cell number starts from zero 
+										
+											
+								
+								
+								
+								
+
+
+
+
+
+				
+								
+								
+								
