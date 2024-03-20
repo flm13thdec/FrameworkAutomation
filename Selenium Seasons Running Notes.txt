@@ -2908,7 +2908,74 @@ getRow(int).getCell(int):XSSFCell , , here int is the CellNumber and Cell number
 										
 											
 								
-								
+
+-----------------------------------------------------
+Day 39: 20th Mar - Wednesday
+-----------------------------------------------------		
+
+
+How to write to excel ?
+
+case 1 : modifying an existing cell in a row 
+
+case 2: creating a cell in an existing row 
+
+case 3: cretaing a row and a cell in it 
+
+?????????????????????????????????????????????????????????????????
+
+In https://www.timeanddate.com/worldclock/ 
+
+Retrieve the web table data and update it in an Excel sheet 
+
+hint : 
+
+from WebTable example 
+
+
+??????????????????????????????????????????????????????????????????
+	
+-----------------------------
+Properties File 
+
+It's a flat file having extension .properties 
+
+used to store key value pairs 
+
+here both key and value considered as String format 
+
+
+How to read data from Properties file ?
+
+we have class Properties (java.util)
+
+Constructor : Properties()
+
+To tell which file is Properties file : load(InputStream)
+
+To retrieve the value for any key in properties file 
+
+getProperty(String):String 
+
+
+----------------------------------------
+HashMap:
+
+Map 
+
+Methods in Map (I) :
+
+put(K, V) : V 
+
+size():int 
+
+isEmpty():boolean
+
+
+
+
+
+							
 								
 								
 
