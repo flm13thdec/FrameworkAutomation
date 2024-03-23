@@ -2973,17 +2973,101 @@ isEmpty():boolean
 
 
 
+-----------------------------------------------------
+Day 39: 23rd Mar - Saturday
+-----------------------------------------------------		
 
 
-							
+get(Object):V 
+
+keySet():Set<K> 
+
+values():Collection<V> 
+
+entrySet():Set<Entry<K, V>>
+
+containsKey(Object):boolean
+containsValue(Object):boolean 
+
+-----------------------------
+
+Entry<K, V>(I):
+
+getKey():K 
+getValue():V 
+
+setValue(V):V 
+
+
+HashMap (C) :
+
+HashMap()
+HashMap(int)
+HashMap(int, float)
+HashMap(Map<? extends K, ? extends V>)							
 								
 								
+initial capacity : 16 
 
 
+
+************************************
+Frameworks 
+
+DataDriven : 
+
+Data can be from Excel file / property/ json /csv etc...
+
+
+
+src/main/java
+src/main/resources
+src/test/java
+	   |
+	    base 
+		    - BaseTest
+	    |
+		pages 
+		|
+		testscripts
+			|
+			smoke
+			|
+			regression
+			|
+			sprint
+		|
+		util
+			- UtilKit
+			
+			
+		
+src/test/resources
+
+		|
+		properties
+			- config.properties
+			- locators.properties
+		|
+		testdata
+			|
+			excel
+			|
+			json 
 
 
 
 				
 								
-								
+@BeforeSuite  - 1
+  @BeforeTest  - 2 
+    @BeforeClass  - 3 
+      @BeforeMethod - 4
+        @Test - 5
+	  @AfterMethod  - 6
+	@AfterClass - 7
+  @AfterTest - 8
+@AfterSuite - 9
+
+		
 								
